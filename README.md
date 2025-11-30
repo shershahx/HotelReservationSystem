@@ -6,23 +6,6 @@ A Java-based Hotel Reservation System providing core functionality for managing 
 - Language: Java (100%)
 - Status: Draft / Active development
 
-Table of Contents
-- [Features](#features)
-- [Architecture & Modules](#architecture--modules)
-- [Tech Stack](#tech-stack)
-- [Prerequisites](#prerequisites)
-- [Getting Started](#getting-started)
-  - [Using Maven](#using-maven)
-  - [Using Gradle](#using-gradle)
-  - [Running from IDE](#running-from-ide)
-- [Configuration](#configuration)
-- [Database](#database)
-- [Running Tests](#running-tests)
-- [Usage Examples](#usage-examples)
-- [Development Notes](#development-notes)
-- [Contributing](#contributing)
-- [License](#license)
-- [Contact](#contact)
 
 ## Features
 - Room management (create, update, delete, list)
@@ -33,7 +16,7 @@ Table of Contents
   - Conflict detection
   - Pricing per room type and duration
 - Basic validation and error handling
-- Unit tests for core reservation logic
+
 
 ## Architecture & Modules
 The repository is organized around core concepts:
@@ -42,7 +25,6 @@ The repository is organized around core concepts:
 - service/ — business logic (availability, booking, cancellation)
 - api/ — optional REST or CLI entrypoints (if present)
 - util/ — helpers and utilities
-- tests/ — unit and integration tests
 
 (Adjust module names to match actual package structure in the repo.)
 
@@ -50,13 +32,13 @@ The repository is organized around core concepts:
 - Java 11+ (recommended)
 - Build: Maven or Gradle (adapt to repository)
 - Database: H2 (in-memory) for development; MySQL/Postgres for production
-- Testing: JUnit 5, Mockito (if used)
+- Testing: JUnit 5 (if used)
 - Optional: Spring Boot (if project is a Spring application)
 
 ## Prerequisites
 - Java JDK 11 or newer
 - Maven 3.6+ or Gradle 6+ (if the project uses one of these)
-- (Optional) Docker and Docker Compose
+
 
 ## Getting Started
 
